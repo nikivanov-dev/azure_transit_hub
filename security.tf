@@ -1,5 +1,5 @@
-resource "azurerm_network_security_group" "niktest1nsg" {
-  name                      = "niktest1-nsg"
+resource "azurerm_network_security_group" "sandbox1nsg" {
+  name                      = "sandbox1-nsg"
   location                  = azurerm_resource_group.transithub.location
   resource_group_name       = azurerm_resource_group.transithub.name
 
@@ -44,8 +44,8 @@ resource "azurerm_network_security_group" "niktest1nsg" {
 #!#
 
 
-resource "azurerm_network_security_group" "niktest2nsg" {
-  name                      = "niktest2-nsg"
+resource "azurerm_network_security_group" "sandbox2nsg" {
+  name                      = "sandbox2-nsg"
   location                  = azurerm_resource_group.transithub.location
   resource_group_name       = azurerm_resource_group.transithub.name
 
@@ -87,8 +87,8 @@ resource "azurerm_network_security_group" "niktest2nsg" {
 }
 
 
-resource "azurerm_network_security_group" "niktest3nsg" {
-  name                      = "niktest3-nsg"
+resource "azurerm_network_security_group" "sandbox3nsg" {
+  name                      = "sandbox3-nsg"
   location                  = azurerm_resource_group.transithub.location
   resource_group_name       = azurerm_resource_group.transithub.name
 
